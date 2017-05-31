@@ -72,7 +72,11 @@ namespace BoletoNet
         {
             throw new NotImplementedException("Função não implementada");
         }
-        
+        public virtual void InstanciaBanco(int codigoBanco)
+        {
+            throw new NotImplementedException("Função não implementada");
+        }
+
         public virtual bool ValidarRemessa(TipoArquivo tipoArquivo, string numeroConvenio, IBanco banco, Cedente cedente, Boletos boletos, int numeroArquivoRemessa, out string mensagem)
         {
             throw new NotImplementedException("Função não implementada na classe filha. Implemente na classe que está sendo criada.");

@@ -6,6 +6,7 @@ namespace BoletoNet
 {
     public interface IBanco
     {
+        void InstanciaBanco(int codigoBanco);
         /// <summary>
         /// Formata o código de barras
         /// </summary>
